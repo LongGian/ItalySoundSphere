@@ -1,0 +1,20 @@
+ /*
+ *= require_tree .
+ *= require_self
+ */
+
+ $white: #ffffff;
+
+ $theme-colors: (
+     "light":      #d0cef2,
+     "dark":       #1d0e4c,
+     "primary":    #8408ee,
+     "secondary":  #ef1d95,
+     "info":       #667ade,
+     "success":    #04a764,
+     "warning":    #e0cd04,
+     "danger":     #ef2601,
+ );
+ 
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';

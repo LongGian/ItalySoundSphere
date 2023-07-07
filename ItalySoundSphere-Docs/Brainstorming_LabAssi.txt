@@ -1,0 +1,62 @@
+
+1.	Utente NON ISCRITTO
+    1)Può iscriversi
+    2)Può visualizzare gli eventi (da vedere dalle api)
+    3)Può visualizzare gli eventi in ordine diverso (filtri) e per genere e città
+    4)Può cercare un evento per nome, luogo, città, genere
+    5)Può visualizzare gli eventi proposti dagli organizzatori esterni
+    6)Può visualizzare informazioni evento (luogo, data, orario, nome artista, biografia, numero partecipanti)(Vedere API cosa offrono)(Ma non le persone che cercano amici)
+    7)Può essere reindirizzato al sito dedicato all'acquisto dei biglietti
+    8)Può vedere dove alloggiare (API Stay22)
+    9)Può vedere come raggiungere il luogo (Sito per comparare bus, treni, aerei)
+    10)Può iscriversi alla newsletter
+    11)Può vedere i social e informazioni dei creator
+    ?)Può vedere gli eventi su una mappa sulla homepage
+
+utente iscritto = utente base intersez organizzatore
+    
+2.  Utente ISCRITTO
+    12)Può loggarsi
+    13)Può richiedere il recupero password (captcha si può inserire qua) 
+    14)Può modificare il profilo
+    15)Può eliminare il profilo
+    16)Può fare logout
+    17)Può richiedere autenticazione a doppio fattore
+    ?)captcha? (dipende se non ci dobbiamo fare un culo, o se un API è free)
+
+2.1.  Utente ISCRITTO BASE
+    18)Può loggarsi con API esterne
+        3.1) Google
+        3.2) Facebook
+        3.3) Instagram
+    19)Può richiedere di ricordarsi GET REMINDER dell'evento
+    20)Può visualizzare gli eventi legati al GET REMINDER nel suo profilo
+    21)Può iscriversi ad un evento come in cerca di un concert buddy
+    22)Può visualizzare e seguire partecipanti in cerca di compagni per i suoi stessi eventi
+    23)Può visualizzare e contattare i suoi amici(via chat)
+    24)Può eliminare i seguiti
+    25)Può segnalare o bloccare un utente
+    26)Può segnalare un organizzatore esterno
+    27)Può recensire un compagno per quell'evento (cuori)
+    28)Può inviare l'evento ad un amico
+    29)Può accettare o rifiutare un evento suggerito da un compagno
+    30)Può vedere la valutazione media dell'amico
+    31)Può visualizzare tutti gli eventi a cui i propri amici sono iscritti
+    32)Può visualizzare gli eventi passati
+    33)Può recensire un evento passato (Stelle) 
+    34)Può richiedere assistenza all'admin o all'organizzatore
+
+2.2.	ORGANIZZATORE evento
+    35)Può proporre eventi
+    36)Può vedere tutti gli eventi da lui proposti e accettati
+    37)Può modificare i suoi eventi
+    38)Può cancellare l'evento
+    39)Può visualizzare la valutazione media dell'evento da lui proposto
+    40)Può parlare via chat con l'admin o con gli utenti base
+    
+3.	ADMIN del sito
+    41) L’admin può visualizzare notifiche sugli utenti segnalati
+    42) Può aggiungere eventi
+    43) Può eliminare eventi
+    44) Può eliminare utenti iscritti (si ricorda che organizzatore e base sono intersezione di iscritto)
+    45) Può parlare via chat con utenti
